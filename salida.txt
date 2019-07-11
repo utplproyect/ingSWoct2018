@@ -1,3 +1,3 @@
-Su edad es:34
-La resta es:30
-Serie: 0  1  1  2  3 La edad 34 no es igual a 25
+Su edad es:35
+La resta es:23
+Serie: 0  1  1  2  3 Es mayor de edad

@@ -65,11 +65,19 @@ public class Aplicacion {
         System.out.println(msg);
         info +=msg;
 		
-		// verificando si la edad es igual a 25
+		// verificando si la edad es igual a 25, si es mayor de edad o si es un menor de edad
 		System.out.println("Verificando si la edad es igual a 25:");
         
 		if(edad==25){
 			msg = "La edad " + edad+" es igual a 25";
+			System.out.println(msg);
+			info +=msg+"\n";
+		}else if(edad>=18){
+			msg = "Es mayor de edad";
+			System.out.println(msg);
+			info +=msg+"\n";
+		}else if(edad<18 && edad>10){
+			msg = "Es menor de edad";
 			System.out.println(msg);
 			info +=msg+"\n";
 		}else{
@@ -78,6 +86,9 @@ public class Aplicacion {
 			info +=msg+"\n";
 		}
         
+	
+		
+		
         //-- procedimiento para crear y escribir el archivo .txt
         final String NEXT_LINE = "\n";
         try {
