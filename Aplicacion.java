@@ -64,6 +64,19 @@ public class Aplicacion {
 
         System.out.println(msg);
         info +=msg;
+		
+		// verificando si la edad es igual a 25
+		System.out.println("Verificando si la edad es igual a 25:");
+        
+		if(edad==25){
+			msg = "La edad " + edad+" es igual a 25";
+			System.out.println(msg);
+			info +=msg+"\n";
+		}else{
+			msg = "La edad " + edad+" no es igual a 25";
+			System.out.println(msg);
+			info +=msg+"\n";
+		}
         
         //-- procedimiento para crear y escribir el archivo .txt
         final String NEXT_LINE = "\n";
