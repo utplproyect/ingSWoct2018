@@ -1,0 +1,3 @@
+Su edad es:1994
+La resta es:56
+Serie: 0  1  1  2  3 
